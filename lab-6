@@ -1,0 +1,53 @@
+1.tar -cvf file.tar *.c
+--output:
+	test1.c
+	test2.c
+	test3.c
+	
+2.tar -xvf file.tar
+
+--output:
+	test1.c
+	test2.c
+	test3.c
+	
+3.tar -cvzf Cfiles.tar.gz *.c
+--output:
+	test1.c
+	test2.c
+	test3.c
+	
+4.tar -xvzf Cfiles.tar.gz
+
+--output:
+	test1.c
+	test2.c
+	test3.c
+	
+5.find .0-iname "*.txt" | cpio -ov
+
+--output:
+	./f3.txt
+	./f2.txt
+	./f1.txt
+	./f4.txt
+	1 block
+	
+	
+
+6.cpio -i < archive
+
+
+
+
+7.cpio -0 <name-list > archive
+
+--output:
+	1 block
+	
+8.cpio -p destination-directory <name-list>
+
+--output: 
+	0 block
+
+

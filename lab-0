@@ -1,0 +1,21 @@
+ 1.mkdir  423189  --output : 423189 Desktop Downloads 1.py Music Videos
+   ls
+   
+   
+ 2. cd 423189
+ mkdir newSubDir   --output:newSubDir
+ ls
+ 
+ 
+ 3.cd newSubDir
+ 
+ 
+ 4.cal --output calendar 
+ 
+ 
+ 5.ls ..   --output  newSubDir
+ 
+ 6. users or who --output  practiceuser:0 2025-01-06 16:28(:0)
+ 			   student:1      2025-01-06 16:28(:1)
+ 			  
+ 			 

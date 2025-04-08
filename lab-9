@@ -1,0 +1,9 @@
+dpkg -l
+rpm -qa
+sudo apt install rpm 
+
+rpm -qa
+which rpm 
+which dpkg 
+
+

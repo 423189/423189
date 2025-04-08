@@ -1,0 +1,97 @@
+1.student@nit-Optiplex-7070:~/423189$ grep "error" log.txt
+
+--output:
+
+error: Unable to open file
+error: Network failure
+error: Disk not found
+
+
+
+2. student@nit-Optiplex-7070:~/423189$ grep -o "success" data.txt | wc -l
+--output: 3
+
+
+
+3.student@nit-Optiplex-7070:~/423189$ grep "^[0-9]" records.txt
+
+--output:1. John Doe - 23
+		2. Jane Smith - 30
+		3. 42 - Mystery Person
+
+
+
+
+
+4.student@nit-Optiplex-7070:~/423189$ grep -v "failed" file.txt
+
+--output:
+	Task completed successfully
+	File uploaded
+	Process started
+	
+
+
+5.student@nit-Optiplex-7070:~/423189$ grep -l "TODO" *.txt
+
+--output:task_list.txt
+	todo_notes.txt
+	
+	
+	
+6.student@nit-Optiplex-7070:~/423189$ grep -oP "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}" contacts.txt
+
+--output:john.doe@example.com
+	jane.smith@company.org
+	test.user@domain.com
+	
+	
+7.student@nit-Optiplex-7070:~/423189$ grep -i "apple" fruits.txt
+--output:
+	Apple is a healthy fruit.
+	The apple tree is blooming.
+	I ate an apple today.
+	
+	
+8.student@nit-Optiplex-7070:~/423189$ grep -E "error|fail" logfile.txt
+--output:
+	error: Unable to connect
+	fail: Timeout occurred
+	Error: Disk full
+	
+	
+	
+9.student@nit-Optiplex-7070:~/423189$ grep "^[A-Z]" sentences.txt
+
+--output:
+	This is the first sentence.
+	Another line that starts with a capital letter.
+
+
+
+10.student@nit-Optiplex-7070:~/423189$ grep -l "project" *
+
+--output:
+	project_report.txt
+	project_plan.txt
+	
+	
+11.student@nit-Optiplex-7070:~/423189$ grep -i "404" server.log
+--output:
+	404 Not Found: /index.html
+	404 Page missing: /about.html
+	
+	
+
+
+
+
+
+
+
+
+	
+
+
+
+

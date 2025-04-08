@@ -1,0 +1,35 @@
+1. ls a*    --output: america  ana asia
+
+
+2.ls *.txt    --output: america.txt  ana.txt  asia.txt
+
+
+3. ls ????     --output: harsh rames 
+
+
+
+4.ls [b-e]*     --output: data:
+		          power
+		          dept:
+		          yourfile
+		          emp
+		          aliasfile myfile
+		          
+		 
+		  
+5.ls ?[0-9]*.log    --output:a1.log
+
+
+
+6. ls data?   	 	--output: data1 dataA dataB
+
+
+7.find . -maxdepth 1 -regextype posix-extended -regex '.*file.*report.*|.*report.*file.*'
+   
+   
+   --output: ./reportfile
+   	      ./filereport
+   	      ./fileANDreport
+   	      
+ 8.ls "helloWorld"  	--output:helloWorld
+

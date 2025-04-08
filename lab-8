@@ -1,0 +1,48 @@
+touch test1.c
+
+gcc -g -o test1 test1.c
+gdb test1
+
+
+
+(gdb) break 6
+
+(gdb) run
+
+(gdb) print(sum)
+(gdb) delete 1
+(gdb) clear
+
+
+(gdb) breakpoint 7
+
+(gdb) break 7
+
+(gdb) run
+(gdb) list
+
+(gdb) clear
+
+(gdb) break 8
+
+(gdb) continue 
+
+(gdb) break 10
+
+(gdb) disassemble main
+
+(gdb) info reg 
+
+(gdb) $arx
+
+(gdb) Quit
+
+
+//After finding out error 
+
+
+gcc -g -o test test1.c
+gdb test1
+
+(gdb) q
+

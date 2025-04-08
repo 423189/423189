@@ -1,0 +1,54 @@
+Using CVS 
+
+
+
+
+touch f1.txt
+touch f2.txt
+touch f3.txt
+
+cvs --version
+
+cvs -d/home/student/423189/cvsproject init
+cvs -d/home/student/423189/cvsproject passwd
+
+sudo useradd -m cvsuser
+
+sudo passwd cvsuser 
+
+cvs -d/home/student/423189/cvsproject adduser cvsuser
+sudo touch cvs home/student/423189/cvsproject/CVSROOT/passwd
+
+
+cvs -d cvs /home/student/423189/cvsproject import -m "Intial Import" test "lab"
+
+useradd -m cvsuser
+cvs -d/home/student/423189/cvsproject commit -m "Commit message" f1.txt f2.txt
+
+
+
+
+
+
+Using Git
+
+touch file1.txt
+touch file2.txt
+touch file3.txt
+
+
+sudo apt-get install git
+
+
+
+git config --global user.email "423189@student.nitandhra.ac.in"
+git config --global user.name "VLVSSSSathveek"
+git config --list
+
+git init 
+
+git add.
+
+git commit -m "Intial Commit"
+
+
