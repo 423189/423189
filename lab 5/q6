@@ -1,0 +1,6 @@
+sed 's/[^@]*/XXXXX@/; s/XXXXX@\(.\)/\1XXXXX@/' file.txt
+
+
+--output:
+XXXXX@example.com
+XXXXX@gmail.com

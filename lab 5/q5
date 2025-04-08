@@ -1,0 +1,5 @@
+sed -E 's/\b(\w+)(\s+\1\b)+/\1/g' file.txt
+
+
+
+--output:hello world this is a test
